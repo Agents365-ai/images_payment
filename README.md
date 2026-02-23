@@ -1,20 +1,28 @@
 # images_payment
 
-Shared payment-related images for cross-repo usage.
+Centralized image repository for payment-related assets used across multiple repos in this account.
 
 ## Usage
 
-Reference images via raw URL:
+Reference images via raw URL in markdown:
 
+```markdown
+![Alipay](https://raw.githubusercontent.com/Agents365-ai/images_payment/main/banners/alipay.png)
 ```
-https://raw.githubusercontent.com/Agents365-ai/images_payment/main/{path}/image.png
-```
+
+## Images
+
+| File | URL |
+|------|-----|
+| `banners/alipay.png` | [Link](https://raw.githubusercontent.com/Agents365-ai/images_payment/main/banners/alipay.png) |
+| `banners/wechat-pay.png` | [Link](https://raw.githubusercontent.com/Agents365-ai/images_payment/main/banners/wechat-pay.png) |
+| `banners/buymeacoffee.png` | [Link](https://raw.githubusercontent.com/Agents365-ai/images_payment/main/banners/buymeacoffee.png) |
 
 ## Structure
 
 ```
 images_payment/
-├── qrcode/      # Payment QR codes
-├── icons/       # Payment icons
-└── banners/     # Payment banners
+├── banners/     # Payment QR codes and banners
+├── qrcode/      # QR codes
+└── icons/       # Payment icons
 ```
